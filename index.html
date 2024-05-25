@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Padang</title>
+        <link href="./output.css" rel="stylesheet" />
+        <!-- <link rel="stylesheet" href="style.css" />
+        <script type="module" src="main.js"></script> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Italianno&family=Karma:wght@300;400;500;600;700&family=Koulen&family=Tulpen+One&display=swap"
+            rel="stylesheet"
+        />
+        <!-- slick -->
+        <link rel="stylesheet" href="./css/slick/slick/slick.css" />
+        <!-- font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body class="">
+        <div class="flex h-screen">
+            <!-- panel kiri -->
+            <div class="w-64 text-dark overflow-y-scroll h-screen p-4">
+                <div class="mt-5">
+                    <img
+                        src="./image/logo/logo.png"
+                        class="mx-auto"
+                        alt=""
+                        srcset=""
+                    />
+                </div>
+                <div class="w-full mt-3 border-[1px] border-slate-950"></div>
+
+                <div class="mt-3">
+                    <!-- navigation -->
+                    <ul class="space-y-2 mb-10 flex flex-col gap-5">
+                        <li class="text-center">
+                            <a
+                                href="#"
+                                class="font-karma uppercase font-normal hover:text-primary"
+                                >reservasi</a
+                            >
+                        </li>
+                        <li class="text-center">
+                            <a
+                                href="#"
+                                class="font-karma uppercase font-normal hover:text-primary"
+                                >pesan sekarang</a
+                            >
+                        </li>
+                        <li class="text-center">
+                            <a
+                                href="#"
+                                class="font-karma uppercase font-normal hover:text-primary"
+                                >menu</a
+                            >
+                        </li>
+                        <li class="text-center">
+                            <a
+                                href="#"
+                                class="font-karma uppercase font-normal hover:text-primary"
+                                >promo</a
+                            >
+                        </li>
+                        <li class="text-center">
+                            <a
+                                href="#"
+                                class="font-karma uppercase font-normal hover:text-primary"
+                                >tentang kami</a
+                            >
+                        </li>
+                        <li class="text-center">
+                            <a
+                                href="#"
+                                class="font-karma uppercase font-normal hover:text-primary"
+                                >jam dan lokasi</a
+                            >
+                        </li>
+                        <li class="text-center">
+                            <a
+                                href="#"
+                                class="font-karma uppercase font-normal hover:text-primary"
+                                >kontak</a
+                            >
+                        </li>
+                        <li class="text-center">
+                            <a
+                                href="#"
+                                class="font-karma uppercase font-normal hover:text-primary"
+                                >komunitas</a
+                            >
+                        </li>
+                    </ul>
+
+                    <!-- social media -->
+                    <div class="flex flex-row justify-around mt-3">
+                        <a href="#" class="w-auto text-3xl hover:text-primary">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="#" class="w-auto text-3xl hover:text-primary">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                        <a href="#" class="w-auto text-3xl hover:text-primary">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </div>
+                    <div class="mt-3 py-5">
+                        <p class="text-base text-center">Sejak 1977</p>
+                    </div>
+                </div>
+            </div>
+            <!-- panel kanan -->
+            <div class="flex-1 p-4 overflow-y-scroll h-screen">
+                <!-- section gallery -->
+                <div class="grid grid-cols-2 gap-5 mt-8">
+                    <div class="relative col-span-1 row-span-1 group">
+                        <img
+                            src="./image/gallery/1.png"
+                            alt="Image 1"
+                            class="w-full h-full object-cover"
+                        />
+                        <div
+                            class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"
+                        ></div>
+                        <div
+                            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                        >
+                            <span
+                                class="text-white text-center font-italianno text-[96px] capitalize"
+                                >Gurame</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative col-span-1 row-span-2 group">
+                        <img
+                            src="./image/gallery/2.png"
+                            alt="Image 2"
+                            class="w-full h-full object-cover"
+                        />
+                        <div
+                            class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"
+                        ></div>
+                        <div
+                            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                        >
+                            <span
+                                class="text-white text-center font-italianno text-[96px] capitalize"
+                                >Paket 5 pax</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative col-span-1 row-span-2 group">
+                        <img
+                            src="./image/gallery/3.png"
+                            alt="Image 3"
+                            class="w-full h-full object-cover"
+                        />
+                        <div
+                            class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"
+                        ></div>
+                        <div
+                            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                        >
+                            <span
+                                class="text-white text-center font-italianno text-[96px] capitalize"
+                                >Nasi tumpeng</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative col-span-1 row-span-2 group">
+                        <img
+                            src="./image/gallery/4.png"
+                            alt="Image 4"
+                            class="w-full h-full object-cover"
+                        />
+                        <div
+                            class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"
+                        ></div>
+                        <div
+                            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                        >
+                            <span
+                                class="text-white text-center font-italianno text-[96px] capitalize"
+                                >paket nasi liwet</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative col-span-1 row-span-2 group">
+                        <img
+                            src="./image/gallery/5.png"
+                            alt="Image 5"
+                            class="w-full h-full object-cover"
+                        />
+                        <div
+                            class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"
+                        ></div>
+                        <div
+                            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                        >
+                            <span
+                                class="text-white text-center font-italianno text-[96px] capitalize"
+                                >gurame sop</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative col-span-1 row-span-1 group">
+                        <img
+                            src="./image/gallery/6.png"
+                            alt="Image 6"
+                            class="w-full h-full object-cover"
+                        />
+                        <div
+                            class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"
+                        ></div>
+                        <div
+                            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                        >
+                            <span
+                                class="text-white text-center font-italianno text-[96px] capitalize"
+                                >sate marangi</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- section 2 -->
+                <section>
+                    <div class="w-full pt-12 pb-7">
+                        <h2
+                            class="text-5xl font-italianno text-center capitalize"
+                        >
+                            masakan padang yang autentik dan khas dari sumatra
+                        </h2>
+                    </div>
+                    <div class="grid grid-cols-2 gap-5 mt-0">
+                        <div class="col-span-1 row-span-1">
+                            <div
+                                class="w-full h-full justify-around p-10 flex flex-col"
+                            >
+                                <div>
+                                    <h1 class="text-7xl font-italianno">
+                                        Menu
+                                    </h1>
+                                    <p class="font-poppins text-sm">
+                                        Jelajahi beragam pilihan menu lezat kami
+                                        yang disiapkan dengan bahan-bahan segar
+                                        dan berkualitas. Klik di sini untuk
+                                        melihat seluruh daftar menu dan temukan
+                                        hidangan favorit Anda!
+                                    </p>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="py-3 px-8 self-start border-[1.5px] border-slate-950 hover:border-slate-500 transition-colors duration-500 ease-in-out"
+                                    >MENU</a
+                                >
+                            </div>
+                        </div>
+                        <div class="col-span-1 row-span-1 h-[500px] px-2">
+                            <img
+                                src="./image/menu/1.jpeg"
+                                alt="Image 2"
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <!-- baris 2 -->
+                        <div class="col-span-1 row-span-1 h-[500px] px-2">
+                            <img
+                                src="./image/menu/1.jpeg"
+                                alt="Image 2"
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div class="col-span-1 row-span-1">
+                            <div
+                                class="w-full h-full justify-around p-10 flex flex-col"
+                            >
+                                <div>
+                                    <h1 class="text-7xl font-italianno">
+                                        Reservasi
+                                    </h1>
+                                    <p class="font-poppins text-sm">
+                                        Tentukan tanggal dan waktu kunjungan
+                                        Anda melalui sistem reservasi kami yang
+                                        mudah dan cepat. Klik tombol di bawah
+                                        untuk memesan sekarang dan nikmati
+                                        pengalaman terbaik bersama kami!
+                                    </p>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="py-3 px-8 self-start border-[1.5px] border-slate-950 hover:border-slate-500 transition-colors duration-500 ease-in-out"
+                                    >RESERVASI</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- section slider -->
+                <section>
+                    <div class="w-full pt-12 ps-8 pb-3">
+                        <h2
+                            class="text-7xl font-italianno capitalize text-start"
+                        >
+                            Promo bulanan
+                        </h2>
+                    </div>
+
+                    <!-- slick content -->
+                    <div class="relative">
+                        <div class="carousel_wrapper relative">
+                            <!-- slide 1 -->
+                            <div class="slider_item w-full h-auto relative">
+                                <img
+                                    src="./image/carousel/1.png"
+                                    class="h-full w-full"
+                                    alt=""
+                                />
+                                <div
+                                    class="absolute inset-0 flex flex-col justify-center items-center text-white"
+                                >
+                                    <div>
+                                        <h2
+                                            class="tracking-normal font-koulen text-[120px] font-normal uppercase text-center"
+                                        >
+                                            buy 1 get 1
+                                        </h2>
+                                        <p
+                                            class="text-[20px] font-koulen text-start uppercase mt-[-2rem]"
+                                        >
+                                            untuk set makanan 5 pax
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slide 2 -->
+                            <div class="slider_item w-full h-auto relative">
+                                <img
+                                    src="./image/carousel/3.png"
+                                    class="h-full w-full"
+                                    alt=""
+                                />
+                                <div
+                                    class="absolute inset-0 flex flex-col justify-center items-center text-white"
+                                >
+                                    <div>
+                                        <h2
+                                            class="tracking-normal font-koulen text-[120px] font-normal uppercase text-center"
+                                        >
+                                            win a trip to bali
+                                        </h2>
+                                        <p
+                                            class="text-[20px] font-koulen text-start uppercase mt-[-2rem]"
+                                        >
+                                            satu undian bagi tiap struk di atas
+                                            200k
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- slide 3 -->
+                            <div class="slider_item w-full h-auto relative">
+                                <img
+                                    src="./image/carousel/2.png"
+                                    class="h-full w-full"
+                                    alt=""
+                                />
+                                <div
+                                    class="absolute inset-0 flex flex-col justify-center items-center text-white"
+                                >
+                                    <div>
+                                        <h2
+                                            class="tracking-normal font-koulen text-[120px] font-normal uppercase text-center"
+                                        >
+                                            potongan 25%
+                                        </h2>
+                                        <p
+                                            class="text-[20px] font-koulen text-start uppercase mt-[-2rem]"
+                                        >
+                                            untuk pesanan di atas 300k
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- jquery -->
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"
+        ></script>
+        <!-- slick js -->
+        <script src="./css/slick/slick/slick.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".carousel_wrapper").slick({
+                    infinte: true,
+                    prevArrow: `<span
+                            class="prev_btn absolute left-4 top-[45%] w-12 h-12 flex justify-center items-center rounded-full bg-white bg-opacity-65 z-10"
+                            ><i class="fas fa-angle-left"></i
+                        ></span>`,
+                    nextArrow: ` <span
+                            class="next_btn absolute right-4 top-[45%] w-12 h-12 flex justify-center items-center rounded-full bg-white bg-opacity-65 z-10"
+                            ><i class="fas fa-angle-right"></i
+                        ></span>`,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                });
+            });
+        </script>
+    </body>
+</html>
